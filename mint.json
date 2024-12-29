@@ -1,91 +1,114 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "ALINAintel",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/favicon.png",
+    "dark": "/logo/favicon.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "dark": "#0D9373"
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://x.com/ALINAintel"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Join Waitlist",
+    "url": "https://app.ALINAintel.ai/"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "telegram",
+      "url": "https://t.me/ALINAintel"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Introduction",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "welcome",
+        "core-philosophy",
+        "rollout-roadmap"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "ALINA Intelligence",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "alina-overview",
+        "intelligence-sources",
+        "strategic-capabilities",
+        "advanced-llm"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Platform Access",
       "pages": [
-        "api-reference/introduction"
+        {
+          "group": "Phase 1 - Chat Interface",
+          "pages": [
+            "chat-intelligence",
+            "data-querying",
+            "basic-insights"
+          ]
+        },
+        {
+          "group": "Phase 2 - Intelligence Suite",
+          "pages": [
+            "market-simulation",
+            "pattern-recognition",
+            "risk-assessment"
+          ]
+        },
+        {
+          "group": "Phase 3 - Trading",
+          "pages": [
+            "cross-chain-execution",
+            "gas-optimization",
+            "autonomous-trading"
+          ]
+        }
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Technical Architecture",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "architecture-overview",
+        "data-processing",
+        "integration-layer"
+      ]
+    },
+    {
+      "group": "For Developers",
+      "pages": [
+        "api-reference",
+        "integration-guides",
+        "sdk-documentation"
+      ]
+    },
+    {
+      "group": "Token & Pricing",
+      "pages": [
+        "pricing-plans",
+        "token-utility",
+        "tokenomics"
+      ]
+    },
+    {
+      "group": "Resources",
+      "pages": [
+        "resources/faq",
+        "resources/glossary",
+        "resources/guides",
+        "resources/community"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "twitter": "https://twitter.com/ALINAintel"
   }
 }
