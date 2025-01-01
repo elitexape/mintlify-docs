@@ -1,0 +1,166 @@
+---
+title: "Chat Intelligence"
+description: "Interact with ALINA through natural language conversations"
+---
+
+## Natural Language Interface
+
+ALINA's chat interface transforms complex market analysis into natural conversations. Ask questions in plain English and receive comprehensive, contextual responses.
+
+<Card title="Natural Query Examples" icon="comments">
+  * "What's the current sentiment around AI tokens?"
+
+  * "Show me wallets that made significant profits in DeFi last week"
+
+  * "Analyze the correlation between recent GitHub commits and token price for Project X"
+
+  * "Execute a swap of 100 USDC to ETH with best routing"
+</Card>
+
+## Key Features
+
+<CardGroup cols={2}>
+  <Card title="Contextual Memory" icon="brain">
+    ALINA remembers previous interactions and builds upon established context, enabling flowing conversations about market dynamics.
+  </Card>
+
+  <Card title="Multi-Modal Response" icon="shapes">
+    Receive responses in the most appropriate format - text, charts, transaction data, or direct trading interfaces.
+  </Card>
+</CardGroup>
+
+## Query Categories
+
+<Tabs>
+  <Tab title="Market Analysis">
+    ```plaintext Example Queries
+    "What's driving the current market momentum?"
+    "Show me the top performing sectors this week"
+    "Identify potential catalysts for BTC in the next 24 hours"
+    ```
+  </Tab>
+
+  <Tab title="Trading Actions">
+    ```plaintext Example Queries
+    "Buy 1 ETH at market price"
+    "Set a limit buy order for TOKEN at $10"
+    "Show me the best DEX route for swapping USDC to SOL"
+    ```
+  </Tab>
+
+  <Tab title="Portfolio Analysis">
+    ```plaintext Example Queries
+    "Analyze my current portfolio risk"
+    "Show my profit/loss across all chains"
+    "What's the optimal rebalancing strategy?"
+    ```
+  </Tab>
+</Tabs>
+
+### Transaction Interface
+
+```json
+{
+  "type": "transaction",
+  "action": "swap",
+  "params": {
+    "fromToken": "USDC",
+    "toToken": "ETH",
+    "amount": "100",
+    "slippage": "0.5%"
+  }
+}
+```
+
+### Risk Assessment
+
+<CardGroup cols={3}>
+  <Card title="Low Risk" icon="shield-check">
+    Well-established projects with strong fundamentals
+  </Card>
+
+  <Card title="Medium Risk" icon="shield-halved">
+    Growing projects with developing metrics
+  </Card>
+
+  <Card title="High Risk" icon="shield-exclamation">
+    New or unproven projects requiring caution
+  </Card>
+</CardGroup>
+
+## Advanced Features
+
+### Pattern Recognition
+
+<Steps>
+  <Step title="Data Collection">
+    ALINA aggregates data from multiple sources to identify patterns
+  </Step>
+
+  <Step title="Analysis">
+    Patterns are analyzed for reliability and significance
+  </Step>
+
+  <Step title="Prediction">
+    Future scenarios are modeled based on pattern analysis
+  </Step>
+
+  <Step title="Recommendation">
+    Actionable insights are presented through the chat interface
+  </Step>
+</Steps>
+
+### Context-Aware Trading
+
+<CodeGroup>
+  ```typescript Simple Trade
+  // Basic trade execution
+  await alina.execute("Buy 1 ETH at market price");
+  ```
+
+  ```typescript Complex Strategy
+  // Advanced trading strategy
+  await alina.execute(`
+    Buy ETH when:
+    - RSI < 30
+    - Social sentiment is positive
+    - Gas fees are below average
+  `);
+  ```
+</CodeGroup>
+
+## Best Practices
+
+<AccordionGroup>
+  <Accordion title="Be Specific">
+    Instead of "How's the market?", ask "What's the current sentiment and volume analysis for Layer 1 tokens?"
+  </Accordion>
+
+  <Accordion title="Use Context">
+    Reference previous queries or specific metrics you're interested in for more focused responses.
+  </Accordion>
+
+  <Accordion title="Verify Actions">
+    Always review transaction details before confirming any trading actions.
+  </Accordion>
+</AccordionGroup>
+
+## Safety Features
+
+<Warning>
+  ALINA includes built-in safety checks for all trading actions:
+
+  * Slippage protection
+
+  * Transaction simulation
+
+  * Gas optimization
+
+  * Wallet exposure limits
+</Warning>
+
+## Getting Started
+
+<Card title="Try ALINA Chat" icon="rocket" href="https://app.alinaintel.ai/chat">
+  Start your first conversation with ALINA and experience the future of crypto intelligence.
+</Card>

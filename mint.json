@@ -29,86 +29,33 @@
   ],
   "navigation": [
     {
-      "group": "Introduction",
-      "pages": [
-        "welcome",
-        "core-philosophy",
-        "rollout-roadmap"
-      ]
+      "group": "Overview",
+      "pages": ["welcome", "quickstart"]
     },
     {
-      "group": "ALINA Intelligence",
-      "pages": [
-        "alina-overview",
-        "intelligence-sources",
-        "strategic-capabilities",
-        "advanced-llm"
-      ]
+      "group": "The Core",
+      "pages": ["what-is-alina", "alina-power", "pattern-tech"]
     },
     {
-      "group": "Platform Access",
+      "group": "Platform Features",
       "pages": [
         {
-          "group": "Phase 1 - Chat Interface",
-          "pages": [
-            "chat-intelligence",
-            "data-querying",
-            "basic-insights"
-          ]
+          "group": "Intelligence Hub",
+          "pages": ["intelligence-interface", "query-guide"]
         },
         {
-          "group": "Phase 2 - Intelligence Suite",
-          "pages": [
-            "market-simulation",
-            "pattern-recognition",
-            "risk-assessment"
-          ]
-        },
-        {
-          "group": "Phase 3 - Trading",
-          "pages": [
-            "cross-chain-execution",
-            "gas-optimization",
-            "autonomous-trading"
-          ]
+          "group": "Full Release",
+          "pages": ["nexus-oracle", "enterprise"]
         }
       ]
     },
     {
-      "group": "Technical Architecture",
-      "pages": [
-        "architecture-overview",
-        "data-processing",
-        "integration-layer"
-      ]
-    },
-    {
-      "group": "For Developers",
-      "pages": [
-        "api-reference",
-        "integration-guides",
-        "sdk-documentation"
-      ]
-    },
-    {
-      "group": "Token & Pricing",
-      "pages": [
-        "pricing-plans",
-        "token-utility",
-        "tokenomics"
-      ]
-    },
-    {
-      "group": "Resources",
-      "pages": [
-        "resources/faq",
-        "resources/glossary",
-        "resources/guides",
-        "resources/community"
-      ]
+      "group": "Developers",
+      "pages": ["api", "integration"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/ALINAintel"
+    "twitter": "https://twitter.com/ALINAintel",
+    "telegram": "https://t.me/ALINAintel"
   }
 }

@@ -1,0 +1,228 @@
+---
+title: "Intelligence Sources"
+description: "Understanding ALINA's comprehensive data ingestion and analysis network"
+---
+
+## Data Sources Overview
+
+ALINA processes over 10,000 data points per minute from diverse sources across the crypto ecosystem. Our multi-layered approach ensures comprehensive market intelligence.
+
+<Card title="Real-Time Processing" icon="bolt">
+  Every data point is processed, analyzed, and correlated in real-time, enabling instant insights and rapid response to market changes.
+</Card>
+
+## Primary Data Categories
+
+<CardGroup cols={3}>
+  <Card title="On-Chain Data" icon="link">
+    Direct blockchain monitoring across multiple networks
+  </Card>
+
+  <Card title="Social Signals" icon="users">
+    Community sentiment and interaction analysis
+  </Card>
+
+  <Card title="Market Data" icon="chart-line">
+    Price, volume, and trading patterns
+  </Card>
+</CardGroup>
+
+## Detailed Source Breakdown
+
+### On-Chain Sources
+
+<AccordionGroup>
+  <Accordion title="Transaction Monitoring">
+    * Wallet interactions
+
+    * Smart contract calls
+
+    * Token transfers
+
+    * DEX trades
+
+    * Liquidity changes
+  </Accordion>
+
+  <Accordion title="Contract Analysis">
+    * Code deployments
+
+    * Contract upgrades
+
+    * Permission changes
+
+    * Protocol parameters
+
+    * Integration patterns
+  </Accordion>
+
+  <Accordion title="Network Metrics">
+    * Gas prices
+
+    * Block times
+
+    * Network load
+
+    * Validator activity
+
+    * Cross-chain bridges
+  </Accordion>
+</AccordionGroup>
+
+### Social Intelligence
+
+<Tabs>
+  <Tab title="Public Platforms">
+    * Twitter/X discussions
+
+    * Reddit communities
+
+    * GitHub activities
+
+    * Blog posts
+
+    * YouTube content
+  </Tab>
+
+  <Tab title="Private Channels">
+    * Telegram groups
+
+    * Discord servers
+
+    * Community forums
+
+    * Developer chats
+
+    * Governance discussions
+  </Tab>
+
+  <Tab title="Team Activity">
+    * Developer commits
+
+    * Team movements
+
+    * Partnership announcements
+
+    * Community engagement
+
+    * Protocol updates
+  </Tab>
+</Tabs>
+
+## Data Processing Pipeline
+
+<Steps>
+  <Step title="Collection">
+    Raw data ingestion from multiple sources through specialized adapters
+  </Step>
+
+  <Step title="Validation">
+    Data verification and authenticity checks
+  </Step>
+
+  <Step title="Processing">
+    Natural language processing and numerical analysis
+  </Step>
+
+  <Step title="Correlation">
+    Cross-referencing data points to identify patterns
+  </Step>
+
+  <Step title="Storage">
+    Secure, encrypted storage with rapid retrieval capabilities
+  </Step>
+</Steps>
+
+## Source Reliability Framework
+
+<CardGroup cols={2}>
+  <Card title="Verification Process" icon="check-double">
+    * Multiple source confirmation
+
+    * Historical reliability tracking
+
+    * Anomaly detection
+
+    * Source reputation scoring
+  </Card>
+
+  <Card title="Quality Metrics" icon="chart-pie">
+    * Data freshness
+
+    * Source reliability
+
+    * Information completeness
+
+    * Cross-reference availability
+  </Card>
+</CardGroup>
+
+## Real-Time Analytics
+
+### Market Sentiment Analysis
+
+![](/sentimentIndex.png)
+
+### Volume Analysis
+
+<Frame>
+  <img src="/images/volume-analysis.png" alt="Volume Analysis Dashboard" />
+</Frame>
+
+## Integration Methods
+
+<CodeGroup>
+  ```typescript Custom Source
+  // Add custom data source
+  await alina.addDataSource({
+    type: 'telegram',
+    channel: 'crypto_signals',
+    priority: 'high'
+  });
+  ```
+
+  ```typescript Data Query
+  // Query processed data
+  const sentiment = await alina.getData({
+    source: 'twitter',
+    topic: 'DeFi',
+    timeframe: '24h'
+  });
+  ```
+</CodeGroup>
+
+## Source Management
+
+<AccordionGroup>
+  <Accordion title="Adding New Sources">
+    Learn how to integrate new data sources into ALINA's intelligence network.
+  </Accordion>
+
+  <Accordion title="Source Prioritization">
+    Understand how ALINA weighs and prioritizes different data sources.
+  </Accordion>
+
+  <Accordion title="Quality Control">
+    Explore our rigorous data quality maintenance procedures.
+  </Accordion>
+</AccordionGroup>
+
+## Security Measures
+
+<Warning>
+  All data sources are continuously monitored for:
+
+  * Manipulation attempts
+
+  * False information
+
+  * Data quality issues
+
+  * Source reliability
+</Warning>
+
+## Future Expansions
+
+<Card title="Expanding Intelligence Network" icon="network-wired">
+  ALINA's intelligence network is continuously growing. Suggest new sources or vote on proposed integrations in our community portal.
+</Card>
