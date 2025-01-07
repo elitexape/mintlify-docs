@@ -1,61 +1,54 @@
 {
-  "name": "ALINAintel",
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "ALINAintel Docs",
   "logo": {
-    "light": "/logo/favicon.png",
-    "dark": "/logo/favicon.png"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
-  "favicon": "/logo/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373"
+    "primary": "#2563eb",
+    "light": "#3b82f6",
+    "dark": "#1e40af",
+    "background": {
+      "dark": "#0f172a"
+    }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "https://x.com/ALINAintel"
+      "url": "mailto:support@alinaintel.ai"
     }
   ],
   "topbarCtaButton": {
-    "name": "Join Waitlist",
-    "url": "https://app.ALINAintel.ai/"
+    "name": "Dashboard",
+    "url": "https://app.alinaintel.ai"
   },
   "anchors": [
     {
       "name": "Community",
-      "icon": "telegram",
-      "url": "https://t.me/ALINAintel"
+      "icon": "discord",
+      "url": "https://discord.gg/alinaintel"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/ALINAintel"
     }
   ],
   "navigation": [
     {
-      "group": "Overview",
-      "pages": ["welcome", "quickstart"]
+      "group": "Getting Started",
+      "pages": ["introduction", "quickstart"]
     },
     {
-      "group": "The Core",
-      "pages": ["what-is-alina", "alina-power", "pattern-tech"]
-    },
-    {
-      "group": "Platform Features",
-      "pages": [
-        {
-          "group": "Intelligence Hub",
-          "pages": ["intelligence-interface", "query-guide"]
-        },
-        {
-          "group": "Full Release",
-          "pages": ["nexus-oracle", "enterprise"]
-        }
-      ]
-    },
-    {
-      "group": "Developers",
-      "pages": ["api", "integration"]
+      "group": "Core Concepts",
+      "pages": ["concepts/nexus", "concepts/oracle"]
     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/ALINAintel",
-    "telegram": "https://t.me/ALINAintel"
+    "telegram": "https://t.me/ALINAintel",
+    "github": "https://github.com/ALINAintel"
   }
 }
