@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "ALINAintel Docs",
   "logo": {
-    "dark": "images/dark - ALINAintel.png",
-    "light": "images/ALINAintel.png"
+    "dark": "images/ALINAintel.png",
+    "light": "images/dark - ALINAintel.png"
   },
   "favicon": "/alina.svg",
   "colors": {
@@ -11,7 +11,7 @@
     "light": "#60a5fa",
     "dark": "#1e40af",
     "background": {
-      "dark": "#0f172a"
+      "dark": "#000000"
     },
     "anchors": {
       "from": "#0ea5e9",
