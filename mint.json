@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "ALINAintel Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "alina.svg",
+    "light": "alina.svg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/alina.svg",
   "colors": {
     "primary": "#2563eb",
     "light": "#3b82f6",
