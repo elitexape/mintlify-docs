@@ -7,11 +7,15 @@
   },
   "favicon": "/alina.svg",
   "colors": {
-    "primary": "#2563eb",
-    "light": "#3b82f6",
+    "primary": "#3b82f6",
+    "light": "#60a5fa",
     "dark": "#1e40af",
     "background": {
       "dark": "#0f172a"
+    },
+    "anchors": {
+      "from": "#0ea5e9",
+      "to": "#3b82f6"
     }
   },
   "topbarLinks": [
@@ -24,26 +28,24 @@
     "name": "Dashboard",
     "url": "https://app.alinaintel.ai"
   },
-  "anchors": [
+  "tabs": [
     {
-      "name": "Community",
-      "icon": "Telegram",
-      "url": "https://t.me/alinaintel"
-    },
-    {
-      "name": "Twitter",
-      "icon": "twitter",
-      "url": "https://twitter.com/ALINAintel"
+      "name": "Documentation",
+      "url": "introduction"
     }
   ],
   "navigation": [
     {
-      "group": "Documentation",
+      "group": "Getting Started",
       "pages": ["introduction"]
     }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/ALINAintel",
     "telegram": "https://t.me/ALINAintel"
-  }
+  },
+  "modeToggle": {
+    "default": "dark"
+  },
+  "backgroundImage": "/background.png"
 }
