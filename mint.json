@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "ALINAintel Docs",
   "logo": {
-    "dark": "logo/dark - ALINAintel.png",
-    "light": "logo/ALINAintel.png"
+    "dark": "images/dark - ALINAintel.png",
+    "light": "images/ALINAintel.png"
   },
   "favicon": "/alina.svg",
   "colors": {
