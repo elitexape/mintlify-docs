@@ -38,12 +38,8 @@
   ],
   "navigation": [
     {
-      "group": "Getting Started",
-      "pages": ["introduction", "quickstart"]
-    },
-    {
-      "group": "Core Concepts",
-      "pages": ["concepts/nexus", "concepts/oracle"]
+      "group": "Documentation",
+      "pages": ["introduction"]
     }
   ],
   "footerSocials": {
