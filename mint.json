@@ -27,8 +27,8 @@
   "anchors": [
     {
       "name": "Community",
-      "icon": "discord",
-      "url": "https://discord.gg/alinaintel"
+      "icon": "Telegram",
+      "url": "https://t.me/alinaintel"
     },
     {
       "name": "Twitter",
@@ -49,6 +49,5 @@
   "footerSocials": {
     "twitter": "https://twitter.com/ALINAintel",
     "telegram": "https://t.me/ALINAintel",
-    "github": "https://github.com/ALINAintel"
   }
 }
