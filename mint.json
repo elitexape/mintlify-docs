@@ -1,0 +1,106 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Zereus Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#2DD4BF",
+    "light": "#4AEDC4",
+    "dark": "#0D9488",
+    "background": {
+      "dark": "#0F1117"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@zereus.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://app.zereus.com"
+  },
+  "tabs": [
+    {
+      "name": "Product Docs",
+      "url": "product-docs"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Discord Community",
+      "icon": "discord",
+      "url": "https://discord.gg/zereus"
+    },
+    {
+      "name": "TG Trade Bot",
+      "icon": "telegram",
+      "url": "https://t.me/zereusbot"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/zereus_ai"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Welcome",
+      "pages": [
+        "introduction",
+        "quicklinks",
+        "overview"
+      ]
+    },
+    {
+      "group": "Platform",
+      "pages": [
+        "platform/modules",
+        "platform/usage-guides",
+        "platform/alina",
+        "platform/cross-chain-execution"
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/intelligence-layer",
+        "features/execution-layer",
+        "features/portfolio-management"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/authentication",
+        "api-reference/endpoints",
+        "api-reference/websockets"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/zereus_ai",
+    "discord": "https://discord.gg/zereus",
+    "telegram": "https://t.me/zereusbot"
+  },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    }
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "search": {
+    "prompt": "Search Zereus docs..."
+  }
+}
