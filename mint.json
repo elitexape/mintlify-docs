@@ -65,20 +65,39 @@
       ]
     },
     {
+      "group": "DeFAI",
+      "pages": [
+        "defai/what-is-defai",
+        "defai/intelligence-layer",
+        "defai/execution-layer"
+      ]
+    },
+    {
       "group": "Platform",
       "pages": [
         "platform/modules",
-        "platform/usage-guides",
         "platform/alina",
-        "platform/cross-chain-execution"
+        "platform/trade-desk",
+        "platform/portfolio-manager",
+        "platform/risk-guardian"
       ]
     },
     {
       "group": "Features",
       "pages": [
-        "features/intelligence-layer",
-        "features/execution-layer",
-        "features/portfolio-management"
+        "features/twitter-sniper",
+        "features/cross-chain-execution",
+        "features/token-dna-sequencer",
+        "features/alpha-discovery"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages": [
+        "guides/getting-started",
+        "guides/connecting-wallets",
+        "guides/executing-trades",
+        "guides/managing-portfolio"
       ]
     },
     {
