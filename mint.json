@@ -74,13 +74,6 @@
     },
     {
       "group": "Platform",
-      "pages": [
-        "platform/modules",
-        "platform/alina",
-        "platform/trade-desk",
-        "platform/portfolio-manager",
-        "platform/risk-guardian"
-      ]
     },
     {
       "group": "API Reference",
