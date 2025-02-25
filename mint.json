@@ -73,9 +73,6 @@
       ]
     },
     {
-      "group": "Platform",
-    },
-    {
       "group": "API Reference",
       "pages": [
         "api-reference/authentication",
