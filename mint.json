@@ -21,12 +21,12 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:support@zereus.com"
+      "url": "mailto:gm@zereus.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://app.zereus.com"
+    "url": "https://app.zereus.ai"
   },
   "tabs": [
     {
@@ -52,7 +52,7 @@
     {
       "name": "Twitter",
       "icon": "twitter",
-      "url": "https://twitter.com/zereus_ai"
+      "url": "https://twitter.com/zereusai"
     }
   ],
   "navigation": [
@@ -80,24 +80,6 @@
         "platform/trade-desk",
         "platform/portfolio-manager",
         "platform/risk-guardian"
-      ]
-    },
-    {
-      "group": "Features",
-      "pages": [
-        "features/twitter-sniper",
-        "features/cross-chain-execution",
-        "features/token-dna-sequencer",
-        "features/alpha-discovery"
-      ]
-    },
-    {
-      "group": "Guides",
-      "pages": [
-        "guides/getting-started",
-        "guides/connecting-wallets",
-        "guides/executing-trades",
-        "guides/managing-portfolio"
       ]
     },
     {
