@@ -67,9 +67,9 @@
     {
       "group": "DeFAI",
       "pages": [
-        "defai/whatisdefai",
-        "defai/intelligencelayer",
-        "defai/executionlayer"
+        "whatisdefai",
+        "intelligencelayer",
+        "executionlayer"
       ]
     },
     {
